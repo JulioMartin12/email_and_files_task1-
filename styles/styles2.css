@@ -1,5 +1,167 @@
-*{
-    padding: 0;
-    margin: 0;
-    box-sizing: border-box;
+@import url("https://fonts.googleapis.com/css2?family=Kalam:wght@300&display=swap");
+
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+  font-family: "kalam", sans-serif;
 }
+
+
+/********************************************************************************
+                                Header
+  *******************************************************************************/
+
+
+  .active{
+    background-color:seagreen;
+  }
+
+  
+  h2{
+    position: relative;
+    z-index: 23;
+  }
+  div h2 {
+    text-align: center;
+    color: white;
+    font-size: 40px;
+    background-color: black;
+    top:-8px;
+    
+    
+  }
+
+
+header {
+  position: relative;
+  width: 80vw;
+  height: 55vh;
+  margin: 50px 150px 20px 150px;
+}
+
+header a {
+    
+    position: relative;
+    padding: 2px 40px;
+    font-size: 30px;
+    margin:10px;
+    color: white;
+    z-index: 1;
+    border: 2px solid black ;
+    text-decoration: none;
+    font:bold;
+    background-color:royalblue;
+  }
+
+
+h1 {
+  position: absolute;
+  font-size: 73px;
+  margin: -10px 10px;
+  z-index: 6;
+  bottom: 98%;
+}
+
+img {
+  width: 100%;
+  max-height: 100%;
+}
+
+.logo {
+  position: absolute;
+  height: 160px;
+  width: 180px;
+  z-index: 3;
+  left: 1%;
+  top: 130%;
+  border: 2px solid blue;
+  background-color: gray;
+  
+}
+
+.nombreCorto::after{
+    content: "About";
+}
+
+nav {
+  position: absolute;
+  top:65px;
+  left:918px;
+}
+
+
+.portada {
+  position: absolute;
+  top:85px;
+  height: 50vh;
+  width: 80vw;
+  opacity: 0.9;
+}
+
+
+
+/********************************************************************************
+                                main
+  *******************************************************************************/
+
+
+
+  article {
+    position: relative;
+    left: 250px;
+    padding-top: 20px;
+    padding-bottom: 0;
+    width: 63vw;
+    bottom: 100%;
+    top: -110%;
+    z-index: 10;
+  }
+  
+  article h3 {
+    font-size: 35px;
+  }
+  
+  article p {
+    font-size: 20px;
+    font: bold;
+    text-indent: 50px;
+  }
+  
+  .active{
+    color: black;
+    text-decoration: none;
+  }
+  
+  main {
+    position: relative;
+    top: 410px;
+    width: 80vw;
+    height: 30vh;
+    margin: 50px 150px 0px 200px;
+  }
+  
+  
+  p {
+    font-size: 20px;
+    font: bold;
+    
+  }
+  p a {
+    font-size: 20px;
+    font: bold;
+    display: inline;
+  }
+  
+  .parrafo-contact {
+    position: relative;
+    display: block;
+    left: 250px;
+    padding-top: 30px;
+    padding-bottom: 0;
+    width: 63vw;
+    bottom: 100%;
+    top: -110%;
+    z-index: 10;
+  }
+  
