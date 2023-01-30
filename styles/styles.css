@@ -1,21 +1,155 @@
-*{
-    padding: 0;
-    margin: 0;
-    box-sizing: border-box;
+@import url('https://fonts.googleapis.com/css2?family=Kalam:wght@300;700&display=swap');
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+  font-family: "kalam", sans-serif;
 }
 
-@import url('https://fonts.googleapis.com/css2?family=Playfair+Display:ital@1&display=swap');
 
 
-html{
-    font-family: 'Playfair Display', sans-serif;
+/********************************************************************************
+                                Header
+  *******************************************************************************/
+a{
+    position: relative;
+    text-decoration: none;
+    font-size: 50px;
+    font-weight:700;
+    color: white;
+    padding: 5px 30px 5px 30px;
+    margin-top: 300px;
+    top: 20px;
+     margin-top: 10px;
+   }
+
+   .active{
+    color: black;
+   }
+
+   body{
+    background-color: #D6F6FE;
+   }
+  .titulo{
+  display: block;
+  position: relative;
+  background-color: #E24301;
+  color: white;
+   text-align: center;
+  font-size: 45px;
+  left: -1px;
+  width: 100vw;
+ top:-760px;
+ z-index: 20;
 }
 
-h1{
-    font-size:7vw ;
+h2{
+  display: block;
+  position: relative;
+  background-color: #E24301;
+  color: white;
+  width: 50vw;
+  left: 25vw;
+  text-align: center;
+  top: -758px;
+  font-size: 35px;
+  border-radius: 10px;
+
 }
 
-img{
-    width: 400px;
-    height: 400px;
+  nav{ position: absolute;
+    top:2px;
+    background-color: #BB3601;
+    width: 100vw;
+    height:12.5vh;
+
 }
+
+header{
+    top: 0px;
+    width: 100vw;
+    height: 100vh;
+  
+}
+
+.logo {
+  position: relative;
+  top: -1025px;
+  left: 88vw;
+  width: 10vw;
+  height: 15vh;
+  z-index: 75;
+}
+
+.portada{
+  position: relative;
+  top:17vh;
+  width: 100vw;
+  height: 90vh;
+ 
+  background-image: url("../assets/imag/design1_image2.jpg");
+ background-size: 100% 100%;
+ border-radius: 20px;
+  z-index: -10;  
+  opacity: 0.4;
+
+}
+
+.nombreCorto::after{
+    content: "About";
+} 
+
+nav a:hover{
+  border: 3px solid#2760FE;
+    color: #F5D92E;
+    border: 3px solid  #F5D92E;
+    border-radius: 10px;box-shadow: 5px 5px;
+}
+
+
+/********************************************************************************
+                                main
+  *******************************************************************************/
+main img {
+  display: none;
+}
+
+main article{
+  position: relative;
+  top: -670px;
+  right: -480px;
+}
+
+
+article h3{
+  font-size: 35px;
+}
+
+article p {
+  font-size: 30px;
+  text-indent: 70px;
+}
+  
+.parrafo-contact {
+  position: relative;
+  display: block;
+  left: 500px;
+  padding-top: 30px;
+  padding-bottom: 0;
+  width: 63vw;
+  top: -650px;
+  z-index: 10;
+}
+
+.parrafo-contact p {
+  font-size: 30px;
+}
+p a{
+  font-size: 30px;
+  top: 1px;
+  right: 20px;
+  text-decoration:underline;
+  color: blue;
+ 
+}
+

@@ -13,6 +13,26 @@
   *******************************************************************************/
 
 
+
+  header {
+    position: relative;
+    width: 80vw;
+    height: 50vh;
+    margin: 20px 150px 20px 150px;   
+  }
+
+  .portada {
+    position: absolute;  
+    top:85px;
+    height:100%;
+    width:100%;
+    object-fit: cover;
+    background-size:100% 100%;
+    background-image: url("../assets/imag/design1_image2.jpg");
+    opacity: 0.9;
+
+  } 
+
   .active{
     background-color:seagreen;
   }
@@ -25,24 +45,21 @@
   h2{
     position: relative;
     z-index: 23;
+    background-color: black;
+    color: white;
+    font-size: 40px;
+    top: 59vh;
   }
-  div h2 {
+  .portada h2 {
     text-align: center;
     color: white;
     font-size: 40px;
     background-color: black;
-    top:-8px;
+    top:489px;
     
     
   }
 
-
-header {
-  position: relative;
-  width: 80vw;
-  height: 55vh;
-  margin: 50px 150px 20px 150px;
-}
 
 header a {
     
@@ -53,18 +70,20 @@ header a {
     color: white;
     z-index: 1;
     border: 2px solid black ;
+    box-shadow: 5px 8px 5px 0px black ;
     text-decoration: none;
     font:bold;
     background-color:royalblue;
   }
 
  
-h1 {
+.titulo{
   position: absolute;
+   top: -5px;
   font-size: 73px;
-  margin: -10px 10px;
-  z-index: 6;
-  bottom: 98%;
+  margin: -10px 10px;  
+  
+  
 }
 
 img {
@@ -78,9 +97,8 @@ img {
   width: 180px;
   z-index: 3;
   left: 1%;
-  top: 130%;
-  border: 2px solid blue;
-  background-color: gray;
+  top: 135%;
+  background-color: lightslategrey;
   
 }
 
@@ -93,28 +111,6 @@ nav {
   top:65px;
   left:918px;
 }
-
-
-.portada {
-  position: absolute;
-  
-  top:85px;
-  height: 50vh;
-  width: 80vw;
-  opacity: 0.9;
-  
-}
-
-
-
-/* header .portada img{
-  display: block;
-   height:100%;
-   width: 100%;
-   border: 2px solid greenyellow;
-   background-image: url("../assets/imag/design1_image2.jpg" );
-} */
-
 
 /********************************************************************************
                                 main
@@ -129,7 +125,7 @@ nav {
     padding-bottom: 0;
     width: 63vw;
     bottom: 100%;
-    top: -110%;
+    top: -105%;
     z-index: 10;
   }
   

@@ -1,8 +1,5 @@
 @import url("https://fonts.googleapis.com/css2?family=Kalam:wght@300&display=swap");
 
-:root{
-  --portada:url("../assets/imag/design1_image1.jpg");
-}
 
 
 * {
@@ -16,6 +13,26 @@
                                 Header
   *******************************************************************************/
 
+
+  header {
+    position: relative;
+    width: 80vw;
+    height: 50vh;
+    margin: 20px 150px 20px 150px;   
+  }
+
+  .portada {
+    position: absolute;  
+    height:100%;
+    width:100%;
+    object-fit: cover;
+    background-size:100% 100%;
+    background-image: url("../assets/imag/design1_image1.jpg");
+    opacity: 0.8;
+  } 
+
+
+
   a {
     display: block;
     position: relative;
@@ -26,16 +43,18 @@
     z-index: 1;
   }
 
-div h2 {
+.portada h2 {
+  position: relative;
+  top:550px ;
   text-align: center;
   color: white;
   font-size: 40px;
   background-color: black;
+  z-index:25;
 }
 
 header {
   position: relative;
-  border: 1px solid green;
   width: 80vw;
   height: 55vh;
   margin: 50px 150px 20px 150px;
@@ -46,7 +65,16 @@ h1 {
   font-size: 73px;
   margin: -10px 10px;
   z-index: 6;
-  bottom: 80%;
+  bottom: 82%;
+}
+
+h2{
+  position: relative;
+  background-color: black;
+  font-size: 40px;
+  color: white;
+  top:55vh;
+  z-index: 2;
 }
 
 img {
@@ -60,8 +88,7 @@ img {
   width: 180px;
   z-index: 3;
   left: 75%;
-  top: 85%;
-  border: 2px solid blue;
+  top: 94%;
   background-color: gray;
 }
 .nombreCorto::after{
@@ -70,31 +97,29 @@ img {
 
 nav {
   position: relative;
-  top:580px
+  top:590px;
+  left: 3%;
 }
 
 
-.portada {
-  position: absolute;
-  height: 50vh;
-  width: 80vw;
-  opacity: 0.9;
-}
+
 
 /********************************************************************************
                                 main
   *******************************************************************************/
-
+main figure img {
+    display: none;
+  }
 
 
 article {
   position: relative;
-  left: 250px;
+  left: 350px;
   padding-top: 20px;
   padding-bottom: 0;
   width: 63vw;
-  bottom: 100%;
-  top: -110%;
+  bottom: -100%;
+  top: -85%;
   z-index: 10;
 }
 
@@ -124,6 +149,7 @@ main {
 }
 
 
+
 p {
   font-size: 20px;
   font: bold;
@@ -137,11 +163,11 @@ p a {
 .parrafo-contact {
   position: relative;
   display: block;
-  left: 250px;
+  left: 300px;
   padding-top: 30px;
   padding-bottom: 0;
   width: 63vw;
   bottom: 100%;
-  top: -110%;
+  top: -85%;
   z-index: 10;
 }
