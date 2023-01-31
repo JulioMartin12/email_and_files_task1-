@@ -18,9 +18,8 @@ a{
     font-weight:700;
     color: white;
     padding: 5px 30px 5px 30px;
-    margin-top: 300px;
-    top: 20px;
-     margin-top: 10px;
+    
+  
    }
 
    .active{
@@ -31,8 +30,10 @@ a{
     background-color: #D6F6FE;
    }
   .titulo{
-  display: block;
+  display: flex;
   position: relative;
+  justify-content: center;
+  align-items: center;
   background-color: #E24301;
   color: white;
    text-align: center;
@@ -44,8 +45,10 @@ a{
 }
 
 h2{
-  display: block;
+  display: flex;
   position: relative;
+  justify-content: center;
+  align-content: center;
   background-color: #E24301;
   color: white;
   width: 50vw;
@@ -58,10 +61,16 @@ h2{
 }
 
   nav{ position: absolute;
+    display: flex;
+    justify-content: start;
+    flex-wrap: wrap;
+    align-items: center;
+    align-content: space-around;
     top:2px;
     background-color: #BB3601;
     width: 100vw;
     height:12.5vh;
+    
 
 }
 
