@@ -12,7 +12,6 @@
                                 Header
   *******************************************************************************/
 a{
-    position: relative;
     text-decoration: none;
     font-size: 50px;
     font-weight:700;
@@ -26,64 +25,58 @@ a{
     color: black;
    }
 
-   body{
-    background-color: #D6F6FE;
-   }
   .titulo{
-  display: flex;
-  position: relative;
-  justify-content: center;
-  align-items: center;
+  position: absolute;
+  top: 12.9vh;
   background-color: #E24301;
   color: white;
-   text-align: center;
   font-size: 45px;
-  left: -1px;
+  text-align: center;
   width: 100vw;
- top:-760px;
  z-index: 20;
 }
 
 h2{
-  display: flex;
-  position: relative;
-  justify-content: center;
-  align-content: center;
+  
+  position:relative;
   background-color: #E24301;
   color: white;
   width: 50vw;
   left: 25vw;
   text-align: center;
-  top: -758px;
+  top: -59.5vh;
   font-size: 35px;
   border-radius: 10px;
 
 }
 
-  nav{ position: absolute;
+  nav{
+    top:0vh;
+    position: absolute;
     display: flex;
+    flex-direction: row;
     justify-content: start;
     flex-wrap: wrap;
     align-items: center;
     align-content: space-around;
-    top:2px;
     background-color: #BB3601;
     width: 100vw;
     height:12.5vh;
+ 
     
 
 }
 
 header{
-    top: 0px;
     width: 100vw;
     height: 100vh;
+
   
 }
 
 .logo {
   position: relative;
-  top: -1025px;
+  top: -87.5vh;
   left: 88vw;
   width: 10vw;
   height: 15vh;
@@ -92,15 +85,14 @@ header{
 
 .portada{
   position: relative;
-  top:17vh;
+  top:20vh;
   width: 100vw;
-  height: 90vh;
+  height: 80vh;
  
-  background-image: url("../assets/imag/design1_image2.jpg");
+ background-image: url("../assets/imag/design1_image2.jpg");
  background-size: 100% 100%;
- border-radius: 20px;
   z-index: -10;  
-  opacity: 0.4;
+  opacity: 0.5;
 
 }
 
@@ -125,8 +117,8 @@ main img {
 
 main article{
   position: relative;
-  top: -670px;
-  right: -480px;
+  top: -65vh;
+  right: -32vw;
 }
 
 
@@ -138,15 +130,29 @@ article p {
   font-size: 30px;
   text-indent: 70px;
 }
+
+.container-titulo-rules{
   
+  position:relative;
+  top: -75vh;
+  margin-left: 10vw;
+  margin-right: 10vw;
+  width: 80 vw;
+  height: 100vh;
+  font-size: 40px;
+  
+}
+
+
+
 .parrafo-contact {
   position: relative;
   display: block;
-  left: 500px;
+  left: 30vw;
   padding-top: 30px;
   padding-bottom: 0;
   width: 63vw;
-  top: -650px;
+  top: -70vh;
   z-index: 10;
 }
 
@@ -160,5 +166,66 @@ p a{
   text-decoration:underline;
   color: blue;
  
+}
+
+
+.titulo-Principal{
+font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+ text-align: center;
+ font-size: 45px;
+ font-weight: 700;
+
+
+}
+
+
+
+.titulo-secundario{
+  font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+  font-size: 45px;
+  font-weight: 700;
+ }
+
+ dd{
+  font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+  margin:50px 0px ;
+ }
+
+ dl{
+  margin:50px 0px ;
+ }
+
+.sangria{
+  text-indent: 3vw;
+ }
+
+ #sangria-especial{
+  text-indent: 10vw;
+  margin: 0px;
+ 
+
+}
+li{
+  font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+
+.lista-letras {
+  list-style-type: lower-alpha;
+
+}
+
+dd ol li dl dt {
+  font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+  font-weight: 700;
+} 
+ul {
+  text-indent: 0;
+  } 
+  
+
+ul li{
+  list-style-type: circle;
+  list-style-position: inside;
+  margin-left: 5vw;
 }
 
