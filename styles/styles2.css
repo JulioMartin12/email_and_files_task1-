@@ -16,9 +16,10 @@
 
   header {
     position: relative;
-    width: 80vw;
+    width: 95vw;
     height: 50vh;
-    margin: 20px 150px 20px 150px;   
+    margin: 20px 20px;
+    left:2vw ;   
   }
 
   .portada {
@@ -47,20 +48,12 @@
     z-index: 23;
     background-color: black;
     color: white;
-    font-size: 40px;
-    top: 59vh;
-  }
-  .portada h2 {
+    font-size: 60px;
+    top: 55.5vh;
     text-align: center;
-    color: white;
-    font-size: 40px;
-    background-color: black;
-    top:489px;
-    
-    
   }
 
-
+ 
 header a {
     
     position: relative;
@@ -93,23 +86,55 @@ img {
 
 .logo {
   position: absolute;
-  height: 160px;
-  width: 180px;
-  z-index: 3;
-  left: 1%;
-  top: 135%;
-  background-color: lightslategrey;
+  height: 15vh;
+  width: 10vw;
+  z-index: 30;
+  left: 1vw;
+  top: 65vh;
+  border:2px solid black;
+  background-image: url("../assets/imag/Logo-Mighty-ducks-01.png");
+  background-size: 100% 100%;
+  background-color: bisque;
+ 
+}
+
+nav {position: absolute;
+ width: 80%;
+ height: 15%;
+ top: 2.5vh;
+  display: flex;
+
+
+}
+
+nav ul{
+list-style: none;
+display: flex;
+margin-top: 0px;
+
+
+}
+
+nav ul li{
+  margin-left: 0%;
+margin-right: 0;
+
+}
+
+nav ul li a {
+  text-decoration: none;
+  font-size: 40px;
+  left: 5.5vw; 
+  top: 1vh;
+  left: 47vw;
+     
+   
+}
+
+.active{
+  color: black;
+  text-decoration: none;
   
-}
-
-.nombreCorto::after{
-    content: "About";
-}
-
-nav {
-  position: absolute;
-  top:65px;
-  left:918px;
 }
 
 /********************************************************************************
@@ -120,21 +145,21 @@ nav {
 
   article {
     position: relative;
-    left: 250px;
+    left: 350px;
     padding-top: 20px;
     padding-bottom: 0;
     width: 63vw;
     bottom: 100%;
-    top: -105%;
+    top: -59%;
     z-index: 10;
   }
   
   article h3 {
-    font-size: 35px;
+    font-size: 45px;
   }
   
   article p {
-    font-size: 20px;
+    font-size: 40px;
     font: bold;
     text-indent: 50px;
   }
@@ -155,12 +180,12 @@ nav {
 
   
   p {
-    font-size: 20px;
+    font-size: 40px;
     font: bold;
     
   }
   p a {
-    font-size: 20px;
+    font-size: 40px;
     font: bold;
     display: inline;
   }
@@ -173,7 +198,100 @@ nav {
     padding-bottom: 0;
     width: 63vw;
     bottom: 100%;
-    top: -110%;
+    top: -55%;
     z-index: 10;
   }
+
+
+.container-titulo-rules{
+  
+  position:relative;
+  top: -15vh;
+  margin-left: 15vw;
+  margin-right: 15vw;
+  width: 80 vw;
+  height: 100vh;
+  font-size: 40px;
+  left: 2vw;
+ 
+  
+}
+
+
+.titulo-Principal{
+  font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+   text-align: center;
+   font-size: 45px;
+   font-weight: 700;
+  
+  
+  }
+  
+  
+  
+  .titulo-secundario{
+    font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-size: 45px;
+    font-weight: 700;
+   }
+  
+   dd{
+    font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    margin:50px 0px ;
+   }
+  
+   dl{
+    margin:50px 0px ;
+   }
+  
+  .sangria{
+    text-indent: 3vw;
+   }
+  
+   #sangria-especial{
+    text-indent: 6vw;
+    margin: 0px;
+   
+  
+  }
+  li{
+    font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+  }
+  
+  .lista-letras {
+    list-style-type: lower-alpha;
+  
+  }
+  
+  dd ol li dl dt {
+    font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-weight: 700;
+  } 
+  ul {
+    text-indent: 0;
+    } 
+    
+  
+  ul li{
+    list-style-type: circle;
+    list-style-position: inside;
+    margin-left: 5vw;
+  }
+  
+
+span {
+  font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+  font-weight: 700;
+
+}
+
+li p{
+  font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+ margin-bottom: 40px;
+}
+
+  
+  
+  
+
   

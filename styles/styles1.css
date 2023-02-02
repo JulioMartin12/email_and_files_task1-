@@ -16,9 +16,10 @@
 
   header {
     position: relative;
-    width: 80vw;
+    width: 95vw;
     height: 50vh;
-    margin: 20px 150px 20px 150px;   
+    margin: 20px 20px;
+    left:1vw ;
   }
 
   .portada {
@@ -43,23 +44,10 @@
     z-index: 1;
   }
 
-.portada h2 {
-  position: relative;
-  top:550px ;
-  text-align: center;
-  color: white;
-  font-size: 40px;
-  background-color: black;
-  z-index:25;
-}
-
-header {
-  position: relative;
-  width: 80vw;
-  height: 55vh;
-  margin: 50px 150px 20px 150px;
-}
-
+ .titulo{
+  left: 4vw;
+  font-size: 90px;
+ }
 h1 {
   position: absolute;
   font-size: 73px;
@@ -71,10 +59,11 @@ h1 {
 h2{
   position: relative;
   background-color: black;
-  font-size: 40px;
+  font-size: 60px;
   color: white;
-  top:55vh;
+  top:50vh;
   z-index: 2;
+  text-align: center;
 }
 
 img {
@@ -84,25 +73,41 @@ img {
 
 .logo {
   position: absolute;
-  height: 160px;
-  width: 180px;
-  z-index: 3;
-  left: 75%;
-  top: 94%;
-  background-color: gray;
-}
-.nombreCorto::after{
-  content: "About MDHL";
+  height: 15vh;
+  width: 10vw;
+  z-index: 30;
+  left: 75vw;
+  top: -11vh;
+  border:2px solid black;
+  background-image: url("../assets/imag/Logo-Mighty-ducks-01.png");
+  background-size: 100% 100%;
+  background-color: bisque;
+ 
 }
 
 nav {
-  position: relative;
-  top:590px;
-  left: 3%;
+position: absolute;
+ display: flex;
+ width: 20%;
+ height: 100%;
+ top: 57vh;
+ left: -2vw;
 }
 
+nav ul li {
+  list-style-type: none;
+}
 
+nav ul li a {
+  font-size: 40px;
+ 
+}
 
+.active{
+  color: black;
+  text-decoration: none;
+  
+}
 
 /********************************************************************************
                                 main
@@ -114,31 +119,27 @@ main figure img {
 
 article {
   position: relative;
-  left: 350px;
+  left: 15vw;
   padding-top: 20px;
   padding-bottom: 0;
   width: 63vw;
   bottom: -100%;
-  top: -85%;
+  top: -56%;
   z-index: 10;
 }
 
 article h3 {
-  font-size: 35px;
+  font-size: 40px;
 }
 
 article p {
-  font-size: 20px;
+  font-size: 35px;
   font: bold;
   text-indent: 50px;
   
 }
 
-.active{
-  color: black;
-  text-decoration: none;
-  
-}
+
 
 main {
   position: relative;
@@ -151,11 +152,11 @@ main {
 
 
 p {
-  font-size: 20px;
+  font-size: 40px;
   font: bold;
 }
 p a {
-  font-size: 20px;
+  font-size: 40px;
   font: bold;
   display: inline;
 }
@@ -163,11 +164,118 @@ p a {
 .parrafo-contact {
   position: relative;
   display: block;
-  left: 300px;
+  left: 20vw;
   padding-top: 30px;
   padding-bottom: 0;
   width: 63vw;
-  bottom: 100%;
-  top: -85%;
+  top: -18vh;
   z-index: 10;
 }
+
+.parrafo-contact p {
+  font-size: 30px;
+}
+p a{
+  font-size: 30px;
+  right: 1px;
+  text-decoration:underline;
+  color: blue;
+ 
+}
+
+.container-titulo-rules{
+  
+  position:relative;
+  top: -15vh;
+  margin-left: 15vw;
+  margin-right: 15vw;
+  width: 80 vw;
+  height: 100vh;
+  font-size: 40px;
+  left: 2vw;
+ 
+  
+}
+
+
+.titulo-Principal{
+  font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+   text-align: center;
+   font-size: 45px;
+   font-weight: 700;
+  
+  
+  }
+  
+  
+  
+  .titulo-secundario{
+    font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-size: 45px;
+    font-weight: 700;
+   }
+  
+   dd{
+    font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    margin:50px 0px ;
+   }
+  
+   dl{
+    margin:50px 0px ;
+   }
+  
+  .sangria{
+    text-indent: 3vw;
+   }
+  
+   #sangria-especial{
+    text-indent: 6vw;
+    margin: 0px;
+   
+  
+  }
+  li{
+    font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+  }
+  
+  .lista-letras {
+    list-style-type: lower-alpha;
+  
+  }
+  
+  dd ol li dl dt {
+    font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-weight: 700;
+  } 
+  ul {
+    text-indent: 0;
+    } 
+    
+  
+  ul li{
+    list-style-type: circle;
+    list-style-position: inside;
+    margin-left: 5vw;
+  }
+
+span {
+  font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+  font-weight: 700;
+
+}
+
+li p{
+  font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+ margin-bottom: 40px;
+}
+  
+
+.titulo-continuo{
+
+  
+  
+}
+
+  
+  
+  

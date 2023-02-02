@@ -11,221 +11,300 @@
 /********************************************************************************
                                 Header
   *******************************************************************************/
-a{
-    text-decoration: none;
-    font-size: 50px;
-    font-weight:700;
-    color: white;
-    padding: 5px 30px 5px 30px;
-    
-  
-   }
 
-   .active{
-    color: black;
-   }
-
-  .titulo{
-  position: absolute;
-  top: 12.9vh;
+   
+      .titulo{
+  display: block;
+  position: relative;
   background-color: #E24301;
   color: white;
-  font-size: 45px;
-  text-align: center;
+   text-align: center;
+  font-size: 100px;
+  left: -1px;
   width: 100vw;
- z-index: 20;
+ top:-75vh;
+ z-index: 1;
 }
 
 h2{
-  
-  position:relative;
+  display: block;
+  position: relative;
   background-color: #E24301;
   color: white;
   width: 50vw;
   left: 25vw;
   text-align: center;
-  top: -59.5vh;
-  font-size: 35px;
+  top: -74vh;
+  font-size: 55px;
   border-radius: 10px;
 
 }
 
-  nav{
-    top:0vh;
-    position: absolute;
-    display: flex;
-    flex-direction: row;
-    justify-content: start;
-    flex-wrap: wrap;
-    align-items: center;
-    align-content: space-around;
-    background-color: #BB3601;
-    width: 100vw;
-    height:12.5vh;
- 
-    
 
-}
 
 header{
+    top: 0px;
     width: 100vw;
     height: 100vh;
-
   
 }
 
-.logo {
-  position: relative;
-  top: -87.5vh;
-  left: 88vw;
-  width: 10vw;
-  height: 15vh;
-  z-index: 75;
-}
 
 .portada{
   position: relative;
-  top:20vh;
+  top:17vh;
   width: 100vw;
-  height: 80vh;
+  height: 90vh;
  
- background-image: url("../assets/imag/design1_image2.jpg");
+  background-image: url("../assets/imag/design1_image2.jpg");
  background-size: 100% 100%;
+ border-radius: 20px;
   z-index: -10;  
-  opacity: 0.5;
+
 
 }
 
-.nombreCorto::after{
-    content: "About";
-} 
 
-nav a:hover{
-  border: 3px solid#2760FE;
-    color: #F5D92E;
-    border: 3px solid  #F5D92E;
-    border-radius: 10px;box-shadow: 5px 5px;
+nav {
+position:fixed;
+width: 100%;
+height:13.5% ;
+
+top:0;
+left:0;
+z-index: 10;
+display: flex;
+justify-content:space-around;
+align-items: center;
+background-color: white;
+}
+
+
+nav ul  {
+  list-style: none;
+  display: flex;
+  margin-right: 0px;
+  margin-top: 60px;
+  
+
+  
+}
+nav ul li:not(:last-child){
+  margin-right: 50px;
+ 
+}
+
+nav ul li{
+  list-style-type: none;
+  margin-right: 10px;
+  
+ 
+}
+
+
+nav ul li a {
+  position: relative;
+  text-decoration: none;
+  font-size: 50px;
+  left: 15vw;
+  top:-2vh ;
+  font-weight: 700;
+  color: black;
+  
+ 
+}
+
+.logo {
+  position: absolute;
+  height: 16vh;
+  width: 10vw;
+  z-index: 30;
+  left: 0vw;
+  top: -1.6vh;
+  background-image: url("../assets/imag/Logo-Mighty-ducks-01.png");
+  background-size: 100% 100%;
+
+ 
+}
+.active{
+  color:yellowgreen;
+  text-decoration: none;
+  
 }
 
 
 /********************************************************************************
                                 main
   *******************************************************************************/
-main img {
+ main img {
   display: none;
 }
 
-main article{
-  position: relative;
-  top: -65vh;
-  right: -32vw;
-}
-
-
 article h3{
-  font-size: 35px;
+  font-size: 45px;
+  text-align: center;
 }
 
 article p {
-  font-size: 30px;
-  text-indent: 70px;
-}
-
-.container-titulo-rules{
-  
-  position:relative;
-  top: -75vh;
-  margin-left: 10vw;
-  margin-right: 10vw;
-  width: 80 vw;
-  height: 100vh;
   font-size: 40px;
+  text-align: center;
+  }
+
+  .articulo{
+    height: 15vh;
+    width:80vw ;
+    margin-bottom:10px ;
+    margin-bottom: 10px;
+    left: 10vw;
+    margin-top:60px;
+  }
+
+  .parrafo-contact {
+    position: relative;
+    display: block;
+    left: 30vw;
+    padding-top: 30px;
+    padding-bottom: 0;
+    width: 63vw;
+    top: -70vh;
+    z-index: 10;
+  }
   
+  .parrafo-contact p {
+    font-size: 30px;
+  }
+  p a{
+    font-size: 30px;
+    top: 1px;
+    right: 20px;
+    text-decoration:underline;
+    color: blue;
+   
+  }
+
+
+  .container-titulo-rules{
+  
+    position:relative;
+    top: -135vh;
+    margin-left: 15vw;
+    margin-right: 15vw;
+    width: 80 vw;
+    height: 100vh;
+    font-size: 40px;
+    left: 2vw;
+   
+    
+  }
+  
+  
+  .titulo-Principal{
+    font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+     text-align: center;
+     font-size: 45px;
+     font-weight: 700;
+    
+    
+    }
+    
+    
+    
+    .titulo-secundario{
+      font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+      font-size: 45px;
+      font-weight: 700;
+     }
+    
+     dd{
+      font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+      margin:50px 0px ;
+     }
+    
+     dl{
+      margin:50px 0px ;
+     }
+    
+    .sangria{
+      text-indent: 3vw;
+     }
+    
+     #sangria-especial{
+      text-indent: 6vw;
+      margin: 0px;
+     
+    }
+
+    
+    li{
+      font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    }
+    
+    .lista-letras {
+      list-style-type: lower-alpha;
+    
+    }
+    
+    dd ol li dl dt {
+      font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+      font-weight: 700;
+    } 
+    ul {
+      text-indent: 0;
+      } 
+      
+    
+    ul li{
+      list-style-type: circle;
+      list-style-position: inside;
+      margin-left: 5vw;
+    }
+
+
+span {
+  font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+  font-weight: 700;
+
 }
 
+li p{
+  font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+ margin-bottom: 40px;
+}
 
-
-.parrafo-contact {
+.conteiner-article{
   position: relative;
-  display: block;
-  left: 30vw;
-  padding-top: 30px;
-  padding-bottom: 0;
-  width: 63vw;
-  top: -70vh;
-  z-index: 10;
-}
-
-.parrafo-contact p {
-  font-size: 30px;
-}
-p a{
-  font-size: 30px;
-  top: 1px;
-  right: 20px;
-  text-decoration:underline;
-  color: blue;
- 
-}
-
-
-.titulo-Principal{
-font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
- text-align: center;
- font-size: 45px;
- font-weight: 700;
-
+  width: 50vw;
+  height: 40vh;
+  top: -65vh;
+  left:25vw ;
+  background-color: white;
+  opacity: 0.5;
+  border-radius: 20px;
 
 }
 
 
-
-.titulo-secundario{
-  font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
-  font-size: 45px;
-  font-weight: 700;
- }
-
- dd{
-  font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
-  margin:50px 0px ;
- }
-
- dl{
-  margin:50px 0px ;
- }
-
-.sangria{
-  text-indent: 3vw;
- }
-
- #sangria-especial{
-  text-indent: 10vw;
-  margin: 0px;
- 
-
-}
-li{
-  font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
-}
-
-.lista-letras {
-  list-style-type: lower-alpha;
+.conteiner-rules{
+  position: relative;
+  width: 80vw;
+  height: 72vh;
+  top: -65vh;
+  left:10vw ;
+  background-color: white;
+  opacity: 0.5;
+  border-radius: 20px;
 
 }
 
-dd ol li dl dt {
-  font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
-  font-weight: 700;
-} 
-ul {
-  text-indent: 0;
-  } 
-  
+.contenedor-article{
+  position: relative;
+  width: 80vw;
+  height: 72vh;
+  top: -65vh;
+  left:10vw ;
+  background-color: white;
+  opacity: 0.5;
+  border-radius: 20px;
 
-ul li{
-  list-style-type: circle;
-  list-style-position: inside;
-  margin-left: 5vw;
 }
 
