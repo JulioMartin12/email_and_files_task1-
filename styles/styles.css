@@ -6,7 +6,10 @@
   font-family: "kalam", sans-serif;
 }
 
-
+body {
+  
+  overflow-x:hidden
+}
 
 /********************************************************************************
                                 Header
@@ -68,8 +71,7 @@ header{
 nav {
 position:fixed;
 width: 100%;
-height:13.5% ;
-
+height:13.5%;
 top:0;
 left:0;
 z-index: 10;
@@ -79,15 +81,12 @@ align-items: center;
 background-color: white;
 }
 
-
 nav ul  {
   list-style: none;
   display: flex;
   margin-right: 0px;
   margin-top: 60px;
-  
-
-  
+    
 }
 nav ul li:not(:last-child){
   margin-right: 50px;
@@ -96,11 +95,8 @@ nav ul li:not(:last-child){
 
 nav ul li{
   list-style-type: none;
-  margin-right: 10px;
-  
- 
+  margin-right: 10px; 
 }
-
 
 nav ul li a {
   position: relative;
@@ -123,9 +119,9 @@ nav ul li a {
   top: -1.6vh;
   background-image: url("../assets/imag/Logo-Mighty-ducks-01.png");
   background-size: 100% 100%;
-
  
 }
+
 .active{
   color:yellowgreen;
   text-decoration: none;
@@ -136,7 +132,8 @@ nav ul li a {
 /********************************************************************************
                                 main
   *******************************************************************************/
- main img {
+
+  main img {
   display: none;
 }
 
@@ -162,19 +159,19 @@ article p {
   .parrafo-contact {
     position: relative;
     display: block;
-    left: 30vw;
+    left: 35vw;
     padding-top: 30px;
     padding-bottom: 0;
     width: 63vw;
-    top: -70vh;
-    z-index: 10;
+    top: -82vh;
+    z-index: 2
   }
   
   .parrafo-contact p {
-    font-size: 30px;
+    font-size: 40px;
   }
   p a{
-    font-size: 30px;
+    font-size: 40px;
     top: 1px;
     right: 20px;
     text-decoration:underline;
@@ -229,7 +226,8 @@ article p {
      }
     
      #sangria-especial{
-      text-indent: 6vw;
+      /* text-indent: 14vw; */
+      text-align: center;
       margin: 0px;
      
     }
@@ -306,5 +304,136 @@ li p{
   opacity: 0.5;
   border-radius: 20px;
 
+}
+
+.article-index{
+  position: relative;
+  top: -100vh; ;
+}
+
+.article-about{
+  position: relative;
+  top: -130vh;
+  width:70vw ; 
+  left: 15vw;
+
+}
+
+.conteiner-contact{
+  position: relative;
+  width: 50vw;
+  height: 20vh;
+  top: -65vh;
+  left:25vw ;
+  background-color: white;
+  opacity: 0.5;
+  border-radius: 20px;
+
+}
+
+.section-game-information{
+  position: relative;
+ width: 80vw;
+ height: 100vh;
+ left: 10vw;
+
+
+}
+.section-game-information h2{
+ font-size: 20px;
+}
+
+.list-information{
+  font-size: 30px;
+  text-decoration: underline;
+}
+
+.list-information li::marker{
+  content:'*  ' ;
+  align-content: center;
+  justify-content: center;
+
+  font-size: 40px;
+  
+}
+
+table{
+ width: 60vw;
+ height: 40vh; 
+ font-size: 45px;
+ border:2px solid blue ;
+
+}
+table{
+  position: relative;
+  box-shadow: 25px 25px ;
+  top: -145vh;
+  left: 10vw;
+}
+
+table thead tr th{
+  border: 2px solid black;
+  background-color: #E24301;
+  text-align: start;
+  padding-left: 10px ;
+  padding-top: 10px;
+
+   
+}
+table tbody tr td{
+  border: 1px solid green;
+  padding-left: 10px;
+
+
+}
+
+table tbody tr:nth-child(odd){
+ background-color: lightcyan;
+
+
+}
+table tbody tr:nth-child(even){
+  background-color: lightblue;
+ 
+ 
+ }
+
+.mes-date-padding{
+ text-align:center;
+ padding-right: 40px;
+ background-color: #FEE3B4;
+
+}
+
+caption{
+  font-size: 70px;
+}
+caption h3{
+text-align: center;
+
+}
+
+caption h4{
+  text-align: start;
+  font-size: 50px;
+  font-weight: 500;
+}
+
+caption ul {
+  text-align: start;
+  text-indent: -9%;
+}
+
+.conteiner-section{
+  position: relative;
+  width: 80vw;
+  height: 80vh;
+  top: -65vh;
+  left:10vw ;
+  background-color: white;
+  opacity: 0.5;
+  border-radius: 20px;
+
+  
 }
 
