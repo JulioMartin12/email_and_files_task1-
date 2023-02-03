@@ -224,7 +224,7 @@ nav ul li a {
 
 
 .titulo-Principal{
-  font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+ 
    text-align: center;
    font-size: 45px;
    font-weight: 700;
@@ -235,13 +235,13 @@ nav ul li a {
   
   
   .titulo-secundario{
-    font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+   
     font-size: 45px;
     font-weight: 700;
    }
   
    dd{
-    font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    
     margin:50px 0px ;
    }
   
@@ -259,9 +259,7 @@ nav ul li a {
    
   
   }
-  li{
-    font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
-  }
+
   
   .lista-letras {
     list-style-type: lower-alpha;
@@ -269,7 +267,7 @@ nav ul li a {
   }
   
   dd ol li dl dt {
-    font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+   
     font-weight: 700;
   } 
   ul {
@@ -285,18 +283,150 @@ nav ul li a {
   
 
 span {
-  font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+  
   font-weight: 700;
 
 }
 
 li p{
-  font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+  
  margin-bottom: 40px;
 }
 
-  
-  
-  
 
+table{
+  width: 60vw;
+  height: 40vh; 
+  font-size: 45px;
+  border:2px solid blue ;
+ 
+ }
+ table{
+   position: relative;
+   box-shadow: 25px 25px ;
+   top: -15vh;
+   left: 15vw;
+ }
+ 
+ table thead tr th{
+   border: 2px solid black;
+   background-color: #E24301;
+   text-align: start;
+   padding-left: 10px ;
+   padding-top: 10px;
+ 
+    
+ }
+ table tbody tr td{
+   border: 1px solid green;
+   padding-left: 10px;
+ 
+ 
+ }
+ 
+ table tbody tr:nth-child(odd){
+  background-color: lightcyan;
+ 
+ 
+ }
+ table tbody tr:nth-child(even){
+   background-color: lightblue;
   
+  
+  }
+ 
+ .mes-date-padding{
+  text-align:center;
+  padding-right: 40px;
+  background-color: #FEE3B4;
+ 
+ }
+ 
+ caption{
+   font-size: 70px;
+ }
+ caption h3{
+ text-align: center;
+ 
+ }
+ 
+ caption h4{
+   text-align: start;
+   font-size: 50px;
+   font-weight: 500;
+ }
+ 
+ caption ul {
+   text-align: start;
+   text-indent: -9%;
+ }
+
+ 
+ .container-game-information{
+   position: relative;
+   width: 54vw;
+   height: 40vh;
+   top: -12vh;
+   font-size: 35px;
+   left: 15vw;
+ 
+ }
+ .container-game-information h3{
+  margin-bottom: 20px; 
+ }
+ 
+ .second-paragraph{
+   margin-top: 50px;
+ 
+ }
+ 
+ 
+ .container-game-information h3 span{
+   font-weight: 100; 
+ }
+ 
+ .container-datos-contacto{
+   width: 80vw;
+   height: 10vh;
+   left:30vw ;
+   display: flex;
+  
+ 
+ }
+ 
+ .datos-contaco {
+   display: flex;
+   margin: 0;
+  
+ 
+ }
+ 
+ .datos-contaco li{
+   position: relative;
+   list-style: none;
+   text-indent: -110px;
+   
+ }
+ .datos-contaco li:first-child{
+   left:0vw ;
+    
+  }
+ 
+ .datos-contaco li:last-child{
+  left:15vw ;
+   
+ }
+ 
+ .list-information{
+  font-size: 30px;
+  text-decoration: underline;
+}
+
+.list-information li::marker{
+  content:'*  ' ;
+  align-content: center;
+  justify-content: center;
+
+  font-size: 60px;
+  
+}
