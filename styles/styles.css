@@ -3,13 +3,16 @@
   padding: 0;
   margin: 0;
   box-sizing: border-box;
-  font-family: "kalam", sans-serif;
+  font-family: "kalam";
+  
 }
 
 body {
   
-  overflow-x:hidden
+  overflow-x:hidden;
+
 }
+
 
 /********************************************************************************
                                 Header
@@ -196,8 +199,7 @@ article p {
   
   
   .titulo-Principal{
-    font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
-     text-align: center;
+      text-align: center;
      font-size: 45px;
      font-weight: 700;
     
@@ -207,14 +209,12 @@ article p {
     
     
     .titulo-secundario{
-      font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
       font-size: 45px;
       font-weight: 700;
      }
     
      dd{
-      font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
-      margin:50px 0px ;
+       margin:50px 0px ;
      }
     
      dl{
@@ -233,9 +233,7 @@ article p {
     }
 
     
-    li{
-      font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
-    }
+   
     
     .lista-letras {
       list-style-type: lower-alpha;
@@ -243,7 +241,6 @@ article p {
     }
     
     dd ol li dl dt {
-      font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
       font-weight: 700;
     } 
     ul {
@@ -259,14 +256,12 @@ article p {
 
 
 span {
-  font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
-  font-weight: 700;
+   font-weight: 700;
 
 }
 
 li p{
-  font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
- margin-bottom: 40px;
+  margin-bottom: 40px;
 }
 
 .conteiner-article{
@@ -332,7 +327,7 @@ li p{
 }
 
 .section-game-information{
-  position: relative;
+position: relative;
  width: 80vw;
  height: 100vh;
  left: 10vw;
@@ -437,3 +432,57 @@ caption ul {
   
 }
 
+.container-game-information{
+  position: relative;
+  width: 54vw;
+  height: 40vh;
+  top: -142vh;
+  font-size: 35px;
+  left: 10vw;
+
+}
+.container-game-information h3{
+ margin-bottom: 20px; 
+}
+
+.second-paragraph{
+  margin-top: 50px;
+
+}
+
+
+.container-game-information h3 span{
+  font-weight: 100; 
+}
+
+.container-datos-contacto{
+  width: 80vw;
+  height: 10vh;
+  left:30vw ;
+  display: flex;
+ 
+
+}
+
+.datos-contaco {
+  display: flex;
+  margin: 0;
+ 
+
+}
+
+.datos-contaco li{
+  position: relative;
+  list-style: none;
+  text-indent: -110px;
+  
+}
+.datos-contaco li:first-child{
+  left:0vw ;
+   
+ }
+
+.datos-contaco li:last-child{
+ left:15vw ;
+  
+}
