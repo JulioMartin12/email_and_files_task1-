@@ -93,12 +93,13 @@ nav ul  {
 }
 nav ul li:not(:last-child){
   margin-right: 50px;
+  
  
 }
 
 nav ul li{
-  list-style-type: none;
-  margin-right: 10px; 
+  list-style-type: none; 
+  margin-left: 10px;
 }
 
 nav ul li a {
@@ -140,6 +141,11 @@ nav ul li a {
   display: none;
 }
 
+
+main{
+  height: 50vh;
+}
+
 article h3{
   font-size: 45px;
   text-align: center;
@@ -162,8 +168,8 @@ article p {
   .parrafo-contact {
     position: relative;
     display: block;
-    left: 35vw;
-    padding-top: 30px;
+    left: 30vw;
+    padding-top: 60px;
     padding-bottom: 0;
     width: 63vw;
     top: -82vh;
@@ -226,8 +232,7 @@ article p {
      }
     
      #sangria-especial{
-      /* text-indent: 14vw; */
-      text-align: center;
+     text-align: center;
       margin: 0px;
      
     }
@@ -266,10 +271,10 @@ li p{
 
 .conteiner-article{
   position: relative;
-  width: 50vw;
-  height: 40vh;
-  top: -65vh;
-  left:25vw ;
+  width: 60vw;
+  height: 45vh;
+  top: -58vh;
+  left:20vw ;
   background-color: white;
   opacity: 0.5;
   border-radius: 20px;
@@ -293,7 +298,7 @@ li p{
   position: relative;
   width: 80vw;
   height: 72vh;
-  top: -65vh;
+  top: -58vh;
   left:10vw ;
   background-color: white;
   opacity: 0.5;
@@ -318,7 +323,7 @@ li p{
   position: relative;
   width: 50vw;
   height: 20vh;
-  top: -65vh;
+  top: -58vh;
   left:25vw ;
   background-color: white;
   opacity: 0.5;
@@ -329,7 +334,7 @@ li p{
 .section-game-information{
 position: relative;
  width: 80vw;
- height: 100vh;
+ height: 5vh;
  left: 10vw;
 
 
@@ -344,7 +349,7 @@ position: relative;
 }
 
 .list-information li::marker{
-  content:'*  ' ;
+  content:'* ' ;
   align-content: center;
   justify-content: center;
 
@@ -353,17 +358,17 @@ position: relative;
 }
 
 table{
- width: 60vw;
+ width: 80vw;
  height: 40vh; 
- font-size: 45px;
+ font-size: 35px;
  border:2px solid blue ;
 
 }
 table{
   position: relative;
   box-shadow: 25px 25px ;
-  top: -145vh;
-  left: 10vw;
+  top: -135vh;
+  left: -3vw;
 }
 
 table thead tr th{
@@ -401,7 +406,7 @@ table tbody tr:nth-child(even){
 }
 
 caption{
-  font-size: 70px;
+  font-size: 60px;
 }
 caption h3{
 text-align: center;
@@ -421,10 +426,10 @@ caption ul {
 
 .conteiner-section{
   position: relative;
-  width: 80vw;
+  width: 85vw;
   height: 80vh;
-  top: -65vh;
-  left:10vw ;
+  top: -58vh;
+  left:5vw ;
   background-color: white;
   opacity: 0.5;
   border-radius: 20px;
@@ -436,9 +441,9 @@ caption ul {
   position: relative;
   width: 54vw;
   height: 40vh;
-  top: -142vh;
+  top: -132vh;
   font-size: 35px;
-  left: 10vw;
+  left: -2vw;
 
 }
 .container-game-information h3{
@@ -474,7 +479,7 @@ caption ul {
 .datos-contaco li{
   position: relative;
   list-style: none;
-  text-indent: -110px;
+  text-indent: -90px;
   
 }
 .datos-contaco li:first-child{

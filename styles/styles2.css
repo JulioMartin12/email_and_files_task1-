@@ -77,8 +77,7 @@ header a {
  
 .titulo{
   position: absolute;
-   top: -5px;
-  font-size: 73px;
+  font-size: 59px;
   margin: -10px 10px;  
   
   
@@ -128,10 +127,9 @@ margin-right: 0;
 
 nav ul li a {
   text-decoration: none;
-  font-size: 40px;
-  left: 5.5vw; 
-  top: 1vh;
-  left: 47vw;
+  font-size: 25px;
+  top: 3.5vh;
+  left: 37vw;
      
    
 }
@@ -155,7 +153,7 @@ nav ul li a {
     padding-bottom: 0;
     width: 63vw;
     bottom: 100%;
-    top: -59%;
+    top: -100%;
     z-index: 10;
   }
   
@@ -203,7 +201,7 @@ nav ul li a {
     padding-bottom: 0;
     width: 63vw;
     bottom: 100%;
-    top: -55%;
+    top: -100%;
     z-index: 10;
   }
 
@@ -211,13 +209,13 @@ nav ul li a {
 .container-titulo-rules{
   
   position:relative;
-  top: -15vh;
+  top: -30vh;
   margin-left: 15vw;
   margin-right: 15vw;
-  width: 80 vw;
+  width: 80vw;
   height: 100vh;
   font-size: 40px;
-  left: 2vw;
+  left: -8vw;
  
   
 }
@@ -295,7 +293,7 @@ li p{
 
 
 table{
-  width: 60vw;
+  width: 70vw;
   height: 40vh; 
   font-size: 45px;
   border:2px solid blue ;
@@ -304,8 +302,8 @@ table{
  table{
    position: relative;
    box-shadow: 25px 25px ;
-   top: -15vh;
-   left: 15vw;
+   top: -30vh;
+   left: 10vw;
  }
  
  table thead tr th{
@@ -364,11 +362,11 @@ table{
  
  .container-game-information{
    position: relative;
-   width: 54vw;
+   width: 64vw;
    height: 40vh;
-   top: -12vh;
+   top: -25vh;
    font-size: 35px;
-   left: 15vw;
+   left: 10vw;
  
  }
  .container-game-information h3{
@@ -408,7 +406,7 @@ table{
    
  }
  .datos-contaco li:first-child{
-   left:0vw ;
+   left:1vw ;
     
   }
  

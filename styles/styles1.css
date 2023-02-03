@@ -49,7 +49,7 @@ body {
   }
 
  .titulo{
-  left: 4vw;
+  left: 2vw;
   font-size: 90px;
  }
 h1 {
@@ -57,7 +57,7 @@ h1 {
   font-size: 73px;
   margin: -10px 10px;
   z-index: 6;
-  bottom: 82%;
+  bottom: 77%;
 }
 
 h2{
@@ -81,7 +81,7 @@ img {
   width: 10vw;
   z-index: 30;
   left: 75vw;
-  top: -11vh;
+  top: -18vh;
   border:2px solid black;
   background-image: url("../assets/imag/Logo-Mighty-ducks-01.png");
   background-size: 100% 100%;
@@ -94,7 +94,7 @@ position: absolute;
  display: flex;
  width: 20%;
  height: 100%;
- top: 57vh;
+ top: 65vh;
  left: -2vw;
 }
 
@@ -103,7 +103,7 @@ nav ul li {
 }
 
 nav ul li a {
-  font-size: 40px;
+  font-size: 30px;
  
 }
 
@@ -128,7 +128,7 @@ article {
   padding-bottom: 0;
   width: 63vw;
   bottom: -100%;
-  top: -56%;
+  top: -72%;
   z-index: 10;
 }
 
@@ -203,8 +203,7 @@ p a{
 
 
 .titulo-Principal{
-  font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
-   text-align: center;
+    text-align: center;
    font-size: 45px;
    font-weight: 700;
   
@@ -214,14 +213,12 @@ p a{
   
   
   .titulo-secundario{
-    font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
     font-size: 45px;
     font-weight: 700;
    }
   
    dd{
-    font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
-    margin:50px 0px ;
+     margin:50px 0px ;
    }
   
    dl{
@@ -238,9 +235,7 @@ p a{
    
   
   }
-  li{
-    font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
-  }
+ 
   
   .lista-letras {
     list-style-type: lower-alpha;
@@ -248,8 +243,7 @@ p a{
   }
   
   dd ol li dl dt {
-    font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
-    font-weight: 700;
+     font-weight: 700;
   } 
   ul {
     text-indent: 0;
@@ -263,13 +257,11 @@ p a{
   }
 
 span {
-  font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
   font-weight: 700;
 
 }
 
 li p{
-  font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
  margin-bottom: 40px;
 }
   
@@ -284,7 +276,7 @@ table{
  table{
    position: relative;
    box-shadow: 25px 25px ;
-   top: -15vh;
+   top: -25vh;
    left: 15vw;
  }
  
@@ -346,7 +338,7 @@ table{
    position: relative;
    width: 54vw;
    height: 40vh;
-   top: -12vh;
+   top: -20vh;
    font-size: 35px;
    left: 15vw;
  
@@ -388,7 +380,7 @@ table{
    
  }
  .datos-contaco li:first-child{
-   left:0vw ;
+   left:1vw ;
     
   }
  
