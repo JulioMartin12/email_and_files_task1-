@@ -87,7 +87,7 @@ background-color: white;
 nav ul  {
   list-style: none;
   display: flex;
-  margin-right: 0px;
+  margin-right: 120px;
   margin-top: 60px;
     
 }
@@ -497,24 +497,193 @@ caption ul {
   position: relative;
   display: flex;
   justify-content: end;
-  height:454px;
-  border: 2px solid blue;
-  top:-50vh;
+  height:48vh;
+  width:50vw ;
+  top:-57vh;
+  left:25vw ;
   margin-right: 20vw;
+  padding-top: 10px;
+  padding-right: 10px;
+  
+}
+.conteiner-location-games{
+  position: absolute;
+  display: flex;
+  justify-content: end;
+  height:48vh;
+  width:50vw ;
+  top:43vh;
+  left:25vw ;
+  background-color: white;
+  opacity: .6;
+  z-index: -2;
+  border-radius: 10px;
   
 }
 
 label{ 
-font-size: 30px;  
+font-size: 30px;
+font-weight: 700;  
 height: 5vh;
-padding: 0px 50px;
+padding-right: 10px;
 }
 
 select{
   
-  font-size: 30px;
+  font-size: 25px;
   border-radius: 20px;
 }
-.map-Katz{
+
+
+.map-none{
   display: none;
 }
+
+
+
+#map-Katz{
+  display: none;
+}
+
+
+#map-greenbay{
+  display: none;
+}
+#map-Howar{
+  display: none;
+}
+#map-Marjorie{
+  display: none;
+}
+#map-north{
+  display: none;
+}
+#map-south{
+  display: none;
+}
+
+form{
+  position: relative;
+  top:-30vw ;
+  left:20vh ;
+  width: 70vw;
+  height: 100vh;
+  color:#E24301;
+}
+
+fieldset{
+  width: 70vw;
+  height: 50vh;
+}
+label{
+ margin: 50px 20px; 
+}
+
+#lname, #fname{
+  width:20vw ;
+}
+
+#saddress{
+  width: 80.3%;
+}
+
+ #city{
+ width:26.25vw ;
+}
+
+#zcode{
+  width:21.25vw ;
+  
+}
+
+#lzcode{
+  margin-left: 6vw;
+}
+
+#gender{
+  padding: 0%;
+  margin: 10%;
+  left:2vw ;
+}
+
+#female, #male{
+ padding:0%;
+ margin:0%;
+ width: 3vw;
+ height: 3vh;
+ margin-top: 25px;
+}
+
+
+#idlgrade{
+  padding: 0%;
+  margin: 1%;
+  left:2vw ;
+}
+
+
+#lfemale, #lmale{
+  
+   padding:0%;
+   margin:0%;
+   padding-right:10px;
+   
+   width: 2vw;
+   height: 2vh;
+  }
+
+  #bdate{
+    width: 20vw;
+  }
+
+  #idlgrade{
+    position: relative;
+    display: flex;
+    flex-direction:row ;
+    align-items: center;
+    margin: 0px;
+    padding: 0%;
+    top: 10vh;
+    height: 10vh;
+    width: 70vw;
+   border:2px solid red ;
+   left: 1vw;
+
+  
+  
+  }
+
+
+.grade-space{
+  padding: 0%;
+  margin: 0%;
+}
+
+label#lfirst{
+  margin: 0%;
+}
+
+  /* 
+
+#lfirst, #lsecond, #lthird, #lfourth, #lfifth{
+  vertical-align: super;
+  padding-top:8px;
+  padding:0% 0;
+  left: 40vw;
+  color: #E24301;
+ 
+  padding:0px 10px 0px 0px ;
+}
+
+#first,#second{
+    padding:0px 10px 0px 0px ;
+}
+  .grade-space{
+    padding:0%;
+    margin:0%;
+    width: 3vw;
+    height: 3vh;
+    margin-top: 25px;
+  }
+ */
+
