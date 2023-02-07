@@ -522,7 +522,7 @@ caption ul {
 }
 
 label{ 
-font-size: 30px;
+font-size: 25px;
 font-weight: 700;  
 height: 5vh;
 padding-right: 10px;
@@ -530,7 +530,7 @@ padding-right: 10px;
 
 select{
   
-  font-size: 25px;
+  font-size: 22px;
   border-radius: 20px;
 }
 
@@ -643,11 +643,10 @@ label{
     align-items: center;
     margin: 0px;
     padding: 0%;
-    top: 10vh;
+    top: 0vh;
     height: 10vh;
-    width: 70vw;
-   border:2px solid red ;
-   left: 1vw;
+    width: 68vw;
+    left: 1vw;
 
   
   
@@ -657,11 +656,36 @@ label{
 .grade-space{
   padding: 0%;
   margin: 0%;
+  width: 3vw;
+  height: 3vh;
 }
 
-label#lfirst{
+
+#preschool{
+  margin-top: -10px;
+  margin-left: 20px;
+}
+
+label.lgrade{
+   padding:0%;
+   padding-top: -10px ; 
+  color: #E24301;
+  vertical-align:super;
+  font-size:25.5px ;
+}
+
+label.lgrade{
   margin: 0%;
 }
+
+
+
+label#lpreschool{
+ margin:0px 20px 0px -10px;
+ font-size: 35px;
+ 
+}
+
 
   /* 
 
