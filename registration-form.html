@@ -7,14 +7,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Registration Form</title>
     <link rel="shortcut icon" href="../assets/imag/Logo-Mighty-ducks-01.jpg" />
- <!-- Primer Modelo Propuesto -->
-  <!--   <link rel="stylesheet" href="../styles/styles1.css" /> -->
-
-    <!-- Segundo  Modelo Propuesto -->
-   <!--  <link rel="stylesheet" href="../styles/styles2.css"> -->
-
-    <!-- Modelo  de Propuesta Personal -->
-    <link rel="stylesheet" href="../styles/styles.css">
+     <link rel="stylesheet" href="../styles/styles.css">
   </head>
   <body>
     <header>
@@ -40,73 +33,74 @@
       <figure>
         <img src="../assets/imag/hockey1.jpg" alt="hockey1" />
       </figure>
-     <form action="">
-
+     
+     <form action="./show-data.html" method="get">
+      <div class="fondo-opaco"></div>
         <fieldset>
             <label>
               Player's First Name:
-              <input type="text" id="fname" name="fname">  
+              <input type="text" id="fname" name="First Name">  
             </label>
             <label>
                 Last Name:
-                <input type="text" id="lname" name="lname">  
+                <input type="text" id="lname" name="Last Name">  
               </label>
               <label>
                 Steet Address:
-                <input type="text" id="saddress" name="saddress">  
+                <input type="text" id="saddress" name="Street Address">  
               </label>
               <label>
                 City:
-                <input type="text" id="city" name="city">  
+                <input type="text" id="city" name="City">  
               </label>
               <label id="lzcode">
                 Zip Code:
-                <input type="number" id="zcode" name="zcode">  
+                <input type="number" id="zcode" name="ZIP Code">  
               </label>
               <label>
                 Birth Date:
-                <input type="date" id="bdate" name="bdate">  
+                <input type="date" id="bdate" name="Birth Date">  
               </label>
-              <label id="gender">
-                Gender:
-          
+
+              <label id="lgender">
+                Gender:          
             <label id="lfemale">Female
-                <input type="checkbox" id="female" name="female">
+                <input type="radio" id="gender" name="Female">
             </label> 
                  
                  <label id="lmale">Male
-                    <input type="checkbox" id="male" name="male">
+                    <input type="radio" id="gender" name="Male">
                  </label>  
 
                 </label>
              
               <label id="idlgrade" >
                 Grade:
-                    <input type="checkbox" id="preschool" name="preschool" class="grade-space">
+                    <input type="radio" id="preschool" name="preschool" class="grade-space">
                     <label id="lpreschool" class="lgrade">
                         Pre-School
                     </label>
               
-                <input type="checkbox" id="first" name="first" class="grade-space">
+                <input type="radio" id="first" name="first" class="grade-space">
                      <label for="first" id="lfirst" class="lgrade">
                         1st
                      </label>  
                     
-                     <input type="checkbox" id="second" name="second" class="grade-space">
+                     <input type="radio" id="second" name="second" class="grade-space">
                      <label id="lsecond" class="lgrade">
                         2nd
                     </label> 
-                    <input type="checkbox" id="third" name="third" class="grade-space">
+                    <input type="radio" id="third" name="third" class="grade-space">
                          <label id="lthird" class="lgrade">
                            3rd
                          </label>  
 
-                         <input type="checkbox" id="fourth" name="fourth" class="grade-space">
+                         <input type="radio" id="fourth" name="fourth" class="grade-space">
                          <label id="lfourth" class="lgrade">
                             4th
                         </label> 
                              
-                        <input type="checkbox" id="fifth" name="fifth" class="grade-space">
+                        <input type="radio" id="fifth" name="fifth" class="grade-space">
                              <label id="lfifth" class="lgrade">
                                 5th
                              </label>  
@@ -120,29 +114,29 @@
            <div class="colegios">
             <label class="ltitulo">Closest School:</label>
            <label class="lcolegio" >
-            <input type="radio" id="" name="" value="">
+            <input type="radio" id="aj-katzenmaier" name="colegio" value="AJ Katzenmaier">
             AJ Katzenmaier
            </label>
        
            <label class="lcolegio" >
-            <input type="radio" id="" name="" value="" >
+            <input type="radio" id="marjorie-p-hart" name="colegio" value="Marjorie P Hart" >
             Marjorie P Hart
            </label>
            <label  class="lcolegio">
-            <input type="radio" id="" name="" value="">
+            <input type="radio" id="greenbay" name="colegio" value="Greenbay">
             Greenbay
            </label>
            
            <label class="lcolegio" >
-            <input type="radio" id="" name="" value="">
+            <input type="radio" id="north-elementary" name="colegio" value="North Elementary">
             North Elementary
            </label>
            <label class="lcolegio" >
-            <input type="radio" id="" name="" value="">
+            <input type="radio" id="howard-a-yeager" name="colegio" value="Howard A Yeager">
             Howard A Yeager
            </label>
            <label class="lcolegio" >
-            <input type="radio" id="" name="" value="">
+            <input type="radio" id="south-elementary" name="colegio" value="South Elementary">
             South Elementary
            </label>
           </div>
@@ -154,21 +148,21 @@
           
           <div class="position">
           <label class="lposition" >
-           <input type="checkbox" id="" name="" value="">
+           <input type="checkbox" id=" forward" name="position" value=" Forward">
            Forward 
           </label>
       
           <label class="lposition" >
-           <input type="checkbox" id="" name="" value="" >
+           <input type="checkbox" id="midfield" name="position" value="Midfield" >
            Midfield
           </label>
           <label  class="lposition">
-           <input type="checkbox" id="" name="" value="">
+           <input type="checkbox" id=" defense" name="position" value=" Defense">
            Defense
           </label>
           
           <label class="lposition" >
-           <input type="checkbox" id="" name="" value="">
+           <input type="checkbox" id=" goalkeeper" name="position" value=" Goalkeeper">
            Goalkeeper
           </label>
           
@@ -181,44 +175,44 @@
         
         <div class="uniform-size">
          <label class="luniform-size" >
-         <input type="checkbox" id="" name="" value="">
+         <input type="radio" id="youth-smal" name="uniform-size" value="Youth Smal">
          Youth Smal
         </label>
     
         <label class="luniform-size" >
-         <input type="checkbox" id="" name="" value="" >
+         <input type="radio" id="medium" name="uniform-size" value="Medium" >
         Medium
         </label>
         <label  class="luniform-size">
-         <input type="checkbox" id="" name="" value="">
+         <input type="radio" id="youth-medium" name="uniform-size" value="Youth Medium">
          Youth Medium
         </label>
         
         <label class="luniform-size" >
-         <input type="checkbox" id="" name="" value="">
+         <input type="radio" id="small" name="uniform-size" value="Small">
          Small
         </label>
         
         <label class="luniform-size" >
-          <input type="checkbox" id="" name="" value="">
+          <input type="radio" id="youth-large" name="uniform-size" value="Youth Large">
           Youth Large
          </label>
         
          <label class="luniform-size" >
-          <input type="checkbox" id="" name="" value="">
+          <input type="radio" id=" large" name="uniform-size" value="large">
           Large
          </label>
         
          <label class="luniform-size" >
-          <input type="checkbox" id="" name="" value="">
+          <input type="radio" id="extra-large" name="uniform-size" value="Extra-Large">
          Extra-Large
          </label>
          </div>
       </fieldset>
 
       <fieldset class="fpermissio">
-        <caption id="cposition">Permission to Play</caption>
-         <p>1,the parent or guardian of the minor registrant, agree that the registrant and 1 will abide by all the rules of the Mighty Ducks Hockey League (MDHL).In recognizing the possibility of physical injury associated with hockey and in consideration for the "League" accepting the registrant for its hockey programs and activities, 1 hereby ralease, discharge, and/or otherwise indemnify MDHL, their employees and associated personnel and volunteers,including the facilities used for practicas and games, against any claim by or on behalf of the registrant as a result of the registrant's participation in the programand/orbeing transported to or from MDHL sponsored activities,which transportation
+        <caption id="cpermissio">Permission to Play</caption>
+         <p class="ppermisio">1,the parent or guardian of the minor registrant, agree that the registrant and 1 will abide by all the rules of the Mighty Ducks Hockey League (MDHL).In recognizing the possibility of physical injury associated with hockey and in consideration for the "League" accepting the registrant for its hockey programs and activities, 1 hereby ralease, discharge, and/or otherwise indemnify MDHL, their employees and associated personnel and volunteers,including the facilities used for practicas and games, against any claim by or on behalf of the registrant as a result of the registrant's participation in the programand/orbeing transported to or from MDHL sponsored activities,which transportation
           By signing below, 1 herebyagree andauthorizethe above.ln addition, by signing below, lalso
           acknowledge that 1 have read the cancellation policy and agree to its terms.</p>
           <div class="permissio">
@@ -233,8 +227,9 @@
          </label>
         
          </div>
+         <input type="submit" value="Enviar" id="enviar">
       </fieldset>
-
+      
      </form>
     </main>
   </body>

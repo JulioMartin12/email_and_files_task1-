@@ -562,18 +562,41 @@ select{
   display: none;
 }
 
+
+/*  ************ Formulario************** */
+
 form{
   position: relative;
-  top:-29vw ;
-  left:20vh ;
-  width: 80vw;
-  height: 30vh;
-  color:#E24301;
+  margin-left: 15vw;
+  margin-right: auto;
+  top: -55vh;
+  width: 68.2vw;
+  height: 150vh;
+  border: 2px solid blue;
+
+
 }
 
+.fondo-opaco{
+  position: absolute;
+ margin-left: auto;
+  margin-right: auto;
+  top: -50;
+  width: 68vw;
+  height: 100vh;
+  background-color:white;
+  opacity: .7;
+  z-index: -1;
+  border-radius: 15px;
+}
+
+fieldset{border:none;
+
+}
 fieldset{
   width: 50vw;
   height: 30vh;
+  
 }
 label{
  margin: 50px 20px; 
@@ -669,7 +692,6 @@ label{
 label.lgrade{
    padding:0%;
    padding-top: -10px ; 
-  color: #E24301;
   vertical-align:super;
   font-size:25.5px ;
 }
@@ -690,7 +712,7 @@ label#lpreschool{
   font-size:30px;
   font-weight: 700;
   height: 30vh;
-  border: 3px solid blue;
+
 
 }
 
@@ -724,7 +746,7 @@ label#lpreschool{
   font-size:30px;
   font-weight: 700;
   height: 18vh;
-  border: 3px solid blue;
+
 
 }
 
@@ -735,7 +757,7 @@ label#lpreschool{
   font-size: 2px;
   width: 20vw;
   height: 10vh;
-  border: 2px solid green;
+
   
 }
 .lposition{
@@ -751,7 +773,6 @@ label#lpreschool{
   font-size:30px;
   font-weight: 700;
   height: 28vh;
-  border: 3px solid blue;
 
 }
 
@@ -762,7 +783,7 @@ label#lpreschool{
   font-size: 2px;
   width: 38vw;
   height: 20vh;
-  border: 2px solid green;
+
   
 }
 .luniform-size{
@@ -773,29 +794,49 @@ label#lpreschool{
 }
 
 
-.f{
-  font-size:30px;
+.fpermissio{
+  font-size:20px;
+
+  height: 58vh;
+ 
+
+}
+.cpermissio{
   font-weight: 700;
-  height: 28vh;
-  border: 3px solid blue;
-
 }
 
-.uniform-size{
+.ppermissio{
+  margin-top: 2vh;
+}
+.permissio{
   display: flex;
   flex-direction: row;
   flex-wrap: wrap;
   font-size: 2px;
   width: 38vw;
-  height: 20vh;
-  border: 2px solid green;
+  height: 10vh;
+  
   
 }
-.luniform-size{
-  width: 45%;
-  margin: 0%;
+.lpermissio{
+  margin:0%;
+  padding:0%;
+ 
+}
+
+.lpermissio input{
+  width: 18vw;
+  margin-right:0;
   padding: 0%;
  
+}
+
+#enviar{
+  width: 6rem;
+  height: 3rem;
+  font-size: 30px;
+  border-radius: 10px;
+  margin-left: 10px;
 }
 
 
